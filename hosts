@@ -1,0 +1,6 @@
+[ubuntu]
+docker ansible_user=ansible ansible_host=192.168.0.25 ansible_ssh_private_key_file=~/.ssh/id_rsa
+homepage ansible_user=ansible ansible_host=192.168.0.29 ansible_ssh_private_key_file=~/.ssh/id_rsa
+cloudflare ansible_user=ansible ansible_host=192.168.0.22 ansible_ssh_private_key_file=~/.ssh/id_rsa
+adguard ansible_user=ansible ansible_host=192.168.0.21 ansible_ssh_private_key_file=~/.ssh/id_rsa
+paperless ansible_user=ansible ansible_host=192.168.0.31 ansible_ssh_private_key_file=~/.ssh/id_rsa

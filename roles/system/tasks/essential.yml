@@ -1,0 +1,10 @@
+#- name: Update packages
+#  dnf:
+#    name: "*"
+#    state: latest
+
+- name: Update packages(Debian-Based)
+  apt:
+    update_cache: yes
+    upgrade: yes
+

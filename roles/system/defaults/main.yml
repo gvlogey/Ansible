@@ -1,0 +1,7 @@
+username: "ansible"
+
+password: changeme
+
+shell: /bin/bash
+
+security_ssh_port: 22
