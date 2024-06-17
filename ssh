@@ -1,12 +1,12 @@
 ---
 - name: Add ssh key
-  hosts: "{{ my_hosts | d([]) }}"
+  hosts: all
   become: true
 
   tasks:
     - name: Install public keys
       ansible.posix.authorized_key:
-        user: "{{ lookup('env', 'USER') }}"
+        user: main
         state: present
         key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
 
