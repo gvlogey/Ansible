@@ -1,6 +1,12 @@
 ---
- - hosts: ubuntu
-   #become will ask for sudo password initially
-   become: yes
-   roles:
-    - role: system
+- name: Update and upgrade apt packages
+  hosts: all
+
+become: true
+
+  tasks:
+    - name: Update packages with apt
+      when: ansible_pkg_mgr == 'apt'
+      ansible.builtin.apt:
+        update_cache: true
+
