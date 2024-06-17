@@ -1,7 +1,7 @@
 [ubuntu]
 docker01 ansible_user=main ansible_host=192.168.10.4 ansible_ssh_private_key_file=~/.ssh/id_rsa
-homepage ansible_user=ansible ansible_host=192.168.0.29 ansible_ssh_private_key_file=~/.ssh/id_rsa
-cloudflare ansible_user=ansible ansible_host=192.168.0.22 ansible_ssh_private_key_file=~/.ssh/id_rsa
-adguard ansible_user=ansible ansible_host=192.168.0.21 ansible_ssh_private_key_file=~/.ssh/id_rsa
-paperless ansible_user=ansible ansible_host=192.168.0.31 ansible_ssh_private_key_file=~/.ssh/id_rsa
+homepage ansible_user=main ansible_host=192.168.0.29 ansible_ssh_private_key_file=~/.ssh/id_rsa
+cloudflare ansible_user=main ansible_host=192.168.0.22 ansible_ssh_private_key_file=~/.ssh/id_rsa
+adguard ansible_user=main ansible_host=192.168.0.21 ansible_ssh_private_key_file=~/.ssh/id_rsa
+paperless ansible_user=main ansible_host=192.168.0.31 ansible_ssh_private_key_file=~/.ssh/id_rsa
 paperless02 ansible_user=ansible ansible_host=192.168.0.36 ansible_ssh_private_key_file=~/.ssh/id_rsa
