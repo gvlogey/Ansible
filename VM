@@ -1,2 +1,3 @@
 [VM]
 docker01 ansible_user=main ansible_host=192.168.10.4 ansible_ssh_private_key_file=~/.ssh/id_rsa
+RHEL-test ansible_user=main ansible_host=192.168.10.5 ansible_ssh_private_key_file=~/.ssh/id_rsa
