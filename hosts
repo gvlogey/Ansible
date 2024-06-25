@@ -12,3 +12,6 @@ prometheus ansible_user=root ansible_host=192.168.0.22 ansible_ssh_private_key_f
 grafana ansible_user=ansible ansible_host=192.168.0.19 ansible_ssh_private_key_file=~/.ssh/id_rsa
 uptimekuma ansible_user=ansible ansible_host=192.168.0.24 ansible_ssh_private_key_file=~/.ssh/id_rsa
 influxdb ansible_user=ansible ansible_host=192.168.0.20 ansible_ssh_private_key_file=~/.ssh/id_rsa
+
+
+RHEL-test ansible_user=ansible ansible_host=192.168.10.5 ansible_ssh_private_key_file=~/.ssh/git
